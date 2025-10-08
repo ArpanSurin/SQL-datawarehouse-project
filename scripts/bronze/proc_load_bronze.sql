@@ -6,7 +6,7 @@ Stored Procedure: Loading bronze layer (source -> layer)
 ===============================================================================================================
 
 Purpose:
-	This prcodure loads the data from external csv files into the tables present in the bronze layer.
+	This procedure loads the data from external csv files into the tables present in the bronze layer.
 	it performs the following actions:
 	- truncates the table before loading the data to prevent loading it more than once.
 	- insert the values in the table using the 'BULK' command.
